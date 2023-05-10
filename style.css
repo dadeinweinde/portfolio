@@ -1,0 +1,771 @@
+body{
+    margin: 0px;
+}
+.header{
+    background-image: url(/bg.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 0px 165px;
+    position: relative;
+}
+.header-line{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+}
+.nav{
+    font-weight: 700;
+    font-size: 14px;
+}
+.nav-item{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    transition: color 0.3s linear;
+}
+.nav-item:hover{
+    color: #de1111;
+}
+.cart{
+    position: relative;
+    border-right: 1px solid #fff;
+    height: 50px;
+}
+.cart-img{
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+.phone-holder{
+    display: flex;
+}
+.phone-img{
+    margin-right: 5px;
+}
+.num{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color 0.3s linear;
+}
+.num:hover{
+    color: #de1111;
+}
+.phone-txt{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.button1{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 116, 0);
+    padding: 14px 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    transition: background-color 0.2s linear;
+}
+.button1:hover{
+    background-color: #de1111;
+}
+.quick-menu {
+    display: none;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.menu-slide{
+    position: absolute;
+}
+.block{
+    display: block;
+}
+.disp{
+    display: none;
+}
+
+
+
+.header-title{
+    position: absolute;
+    top: -380px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+.home-title{
+    color: rgb(214, 126, 53);
+    font-size: 50px;
+    font-weight: 400;
+}
+.sup-title{
+    color: rgb(214, 126, 53);
+    font-size: 80px;
+    font-weight: 400;
+}
+.our-title{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 80px;
+}
+.sub-title{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 8px;
+    padding-bottom: 28px;
+    position: relative;
+}
+.sub-line::after{
+    position: absolute;
+    background: rgb(196, 196, 196);
+    width: 60px;
+    height: 2px;
+    content: '';
+    left: 86px;
+    top: 12px;
+}
+.sub-line::before{
+    position: absolute;
+    background: rgb(196, 196, 196);
+    width: 60px;
+    height: 2px;
+    content: '';
+    left: 334px;
+    top: 12px;
+}
+.button2{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 116, 0);
+    padding: 14px 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    transition: background-color 0.2s linear;
+}
+.button2:hover{
+    background-color: #de1111;
+}
+
+
+
+.cards-holder{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 349px;
+    height: 328px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+    margin-right: 32px;
+    margin-top: -70px;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 38px;
+}
+.card-title{
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+.card-title span{
+    color: rgb(214, 126, 53);
+}
+.card-desk{
+    padding: 10px 20px;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(101, 99, 99);
+}
+
+
+
+.history{
+    margin-top: 166px;
+}
+.history-info{
+    width: 444px;
+    height: 422px;
+}
+.history-title{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.history-title span{
+    color: rgb(214, 126, 53);
+}
+.history-desk{
+    font-family: 'Open Sans', sans-serif ;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(101, 99, 99);
+}
+.history-num{
+    margin-top: 50px;
+    display: flex;
+    width: 444px;
+    justify-content: flex-end;
+}
+.num-item{
+    margin-right: 50px;
+    color: rgb(188, 144, 96);
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif ;
+}
+.num-item span{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif ;
+}
+.history-holder{
+    display: flex;
+}
+.history-images{
+    position: relative;
+}
+.images-3{
+    position: absolute;
+    z-index: 1;
+    top: 196px;
+    left: 84px;
+}
+.images-2{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 308px;
+}
+.images-1{
+    position: absolute;
+    z-index: 3;
+    top: -116px;
+    left: 140px;
+}
+
+
+
+
+.blackbg{
+    background-image: url(/blackbg.png);
+    height: 357px;
+    margin-top: 182px;
+}
+.block-holder{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right-btn{
+    padding-left: 300px;
+}
+.left-title{
+    height: 126px;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 52px;
+    color: rgb(214, 126, 52);
+}
+.left-desk{
+    margin-top: 15px;
+    width: 550px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif ;
+    color: rgb(255, 255, 255);
+}
+.button3{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 116, 0);
+    padding: 14px 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    transition: background-color 0.2s linear;
+}
+.button3:hover{
+    background-color: #de1111;
+}
+
+
+
+.dishes{
+    margin-top: 132px;
+}
+.dishes-title{
+    color: rgb(0, 0, 0);
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    padding-bottom: 136px;
+}
+.dishes-title span{
+    color: rgb(214, 126, 53);
+}
+.dishes-content{
+    display: flex;
+}
+.burger-item{
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    margin-bottom: 29px;
+}
+.burger-text{
+    margin-left: 28px;
+    color: rgb(0, 0, 0);
+    font-family: 'Tinos', serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+
+
+.our-menu{
+    background-image: url(/bgmenu.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    width: 100%;
+    height: 1036px;
+}
+.menu-title{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 135px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.menu-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-cardone{
+    width: 350px;
+    height: 510px;
+    background: rgb(255, 255, 255);
+}
+.menu-card{
+    width: 350px;
+    height: 510px;
+    background: rgb(255, 255, 255);
+}
+.block-rec{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: rgb(214, 126, 52);
+    width: 100px;
+    padding: 6px 10px;
+    text-align: center;
+}
+.burger-img1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 22px;
+    position: relative;
+}
+.price1{
+    position: absolute;
+    top: 178px;
+    left: 190px;
+}
+.eclips1{
+    position: relative;
+}
+.price-420{
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.burger-title1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.burger-desk1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.burger-btn1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.burger-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 22px;
+    position: relative;
+}
+.price{
+    position: absolute;
+    top: 206px;
+    left: 190px;
+}
+.eclips{
+    position: relative;
+}
+.price-420{
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.burger-title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.burger-desk{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.burger-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.button4{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 116, 0);
+    padding: 14px 68px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.2s linear;
+}
+.button4:hover{
+    background-color: #de1111;
+}
+
+
+.comment{
+    background-color: rgb(230, 229, 229);
+}
+.comment-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 104px;
+}
+.comment-images{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.comment-type{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+.comment-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+
+.gallery-content{
+    padding-top: 101px;
+}
+.gallery-title{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 57px;
+}
+.gallery-dishes span{
+    color: rgb(214, 126, 53);
+}
+.left-right{
+    display: flex;
+}
+.left-gal{
+    margin-right: 30px;
+}
+.left-down{
+    display: flex;
+}
+.left20{
+    margin-right: 30px;
+}
+.left10{
+    margin-bottom: 30px;
+}
+
+.right-up{
+    display: flex;
+}
+.right20{
+    margin-right: 30px;
+}
+.right10{
+    margin-top: 30px;
+}
+.chefs-title{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 104px;
+}
+.chefs-title span{
+    color: rgb(214, 126, 53);
+}
+.chefs-images{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.chef-img{
+    padding-bottom: 10px;
+}
+
+.down{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+.down-text{
+    color: #fff;
+}
+
+
+@media(max-width: 1380px) {
+    .dishes-content {
+        justify-content: space-around;
+    }
+    .pizza-img {
+        display: none;
+    }
+}
+@media (max-width: 1350px) {
+    .card-desk{
+        font-size: 20px;
+    }
+    .header-title{
+        position: relative;
+    }
+    .sub-line{
+        display: none;
+    }
+    .menu-card {
+        display: none;
+    }
+    
+}
+@media (max-width: 1280px) {
+    .left-right {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-gal{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .cards-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-btn{
+        padding-left: 0px;
+    }
+    
+}
+@media(max-width: 1220px) {
+    .chefs-images {
+        flex-direction: column;
+    }
+    .block-holder{
+        flex-direction: column;
+    }
+    .right{
+        padding-top: 35px;
+    }
+    .history-images {
+        display: none;
+    }
+    .history-info {
+        width: auto;
+    }
+    .history-num {
+        width: auto;
+        justify-content: space-evenly;
+    }
+    .nav {
+        display: none;
+    }
+    .cart {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .button1 {
+        display: none;
+    }
+    .quick-menu {
+        display: block;
+    }
+    
+
+}
+@media(max-width: 1100px) {
+    .button3 {
+        top: 210px;
+        right: 400px;
+    }
+    .left-title {
+        font-size: 40px;
+    }
+    .left-desk {
+        font-size: 18px;
+    }
+    
+}
+@media(max-width: 900px) {
+    .home-title {
+        font-size: 35px;
+    }
+    .our-title{
+        font-size: 40px;
+    }
+    .sup-title {
+        font-size: 60px;
+    }
+    .sub-title {
+        font-size: 14px;
+    }
+    .button2 {
+        font-size: 10px;
+    }
+    .card {
+        width: 320px;
+        height: 300px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-desk {
+        font-size: 14px;
+    }
+    .history-title {
+        font-size: 40px;
+    }
+    .history-desk {
+        font-size: 14px;
+    }
+    .num-item {
+        font-size: 20px;
+    }
+    .num-item span {
+        font-size: 15px;
+    }
+    
+    .button3 {
+        font-size: 12px;
+    }
+    .chefs-title{
+        font-size: 40px;
+    }
+    .dishes-title {
+        font-size: 40px;
+    }
+    .burger-text {
+        font-size: 15px;
+    }
+    .menu-title {
+        font-size: 40px;
+    }
+    .comment-text {
+        font-size: 12px;
+    }
+    .comment-type {
+        font-size: 14px;
+    }
+    .comment-name {
+        font-size: 14px;
+    }
+    .gallery-title {
+        font-size: 40px;
+    }
+    
+}
